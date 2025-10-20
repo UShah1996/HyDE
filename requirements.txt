@@ -1,7 +1,10 @@
-torch>=2.0.0
-transformers>=4.30.0
-sentence-transformers>=2.2.0
+torch==2.2.2
+numpy==1.26.4
+transformers==4.37.2
+sentence-transformers>=2.2.2
 faiss-cpu>=1.7.4
-numpy>=1.24.0
 streamlit>=1.28.0
 openai>=1.0.0
+beautifulsoup4==4.12.3
+requests==2.32.3
+ddgs==9.6.1
