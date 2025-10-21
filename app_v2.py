@@ -131,12 +131,15 @@ def main():
                 f"But here is the information found from external sources: \n\n"
                 f"{hypothetical}\n\n"
                 f"**Confidence Score:** {confidence_score:.3f}"
+                f"(Confidence score is the similarity score and the hypothetical passage!)"
             )
 
             # --- Proper use of session state ---
             if "corpus_action_taken" not in st.session_state:
                 st.session_state.corpus_action_taken = False
                 st.session_state.corpus_action_result = None
+
+            st.write("Do you want to write this information to corpus?")
 
             # Only show buttons if a choice hasn't been made yet
             if not st.session_state.corpus_action_taken:
