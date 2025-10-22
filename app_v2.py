@@ -126,6 +126,7 @@ def main():
                     st.write(text)
                     st.markdown("---")
         else:
+            st.write("No relevant documents found for the query.")
 
             st.write(
                 f"But here is the information found from external sources: \n\n"
