@@ -1,0 +1,28 @@
+{
+  "num_queries": 100,
+  "top_k": 10,
+  "nprobe": 64,
+  "metrics": {
+    "ndcg@10": 0.0,
+    "recall@10": 0.0,
+    "mrr@10": 0.0
+  },
+  "latency": {
+    "p50_ms": 789.0,
+    "p95_ms": 1335.0,
+    "p99_ms": 2652.9,
+    "mean_ms": 860.4
+  },
+  "index_memory_mb": {
+    "ivfpq": 11.1,
+    "flat_baseline": 307.2,
+    "reduction_pct": 96.4
+  },
+  "index_config": {
+    "nlist": 1024,
+    "m": 64,
+    "nbits": 8
+  },
+  "encoder": "facebook/contriever",
+  "corpus_size": 100000
+}

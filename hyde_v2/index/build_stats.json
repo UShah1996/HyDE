@@ -1,0 +1,17 @@
+{
+  "num_passages": 100000,
+  "embed_dim": 768,
+  "encoder": "facebook/contriever",
+  "ivfpq": {
+    "nlist": 1024,
+    "m": 64,
+    "nbits": 8
+  },
+  "index_size_mb": {
+    "ivfpq": 11.1,
+    "flat": 307.2
+  },
+  "memory_reduction_pct": 96.4,
+  "encode_time_s": 1276.9,
+  "total_time_s": 1319.8
+}

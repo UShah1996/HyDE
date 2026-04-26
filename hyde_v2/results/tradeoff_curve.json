@@ -1,0 +1,77 @@
+{
+  "configs": [
+    {
+      "label": "m=96,8bit",
+      "nlist": 1024,
+      "m": 96,
+      "nbits": 8,
+      "index_mb": 14.3,
+      "flat_mb": 307.2,
+      "memory_reduction_pct": 95.3,
+      "recall@10_vs_flat": 0.7815,
+      "latency_p50_ms": 1.61,
+      "latency_p99_ms": 2.47
+    },
+    {
+      "label": "m=64,8bit",
+      "nlist": 1024,
+      "m": 64,
+      "nbits": 8,
+      "index_mb": 11.1,
+      "flat_mb": 307.2,
+      "memory_reduction_pct": 96.4,
+      "recall@10_vs_flat": 0.7065,
+      "latency_p50_ms": 1.28,
+      "latency_p99_ms": 1.98
+    },
+    {
+      "label": "m=48,8bit",
+      "nlist": 1024,
+      "m": 48,
+      "nbits": 8,
+      "index_mb": 9.5,
+      "flat_mb": 307.2,
+      "memory_reduction_pct": 96.9,
+      "recall@10_vs_flat": 0.6725,
+      "latency_p50_ms": 1.14,
+      "latency_p99_ms": 1.66
+    },
+    {
+      "label": "m=32,8bit",
+      "nlist": 1024,
+      "m": 32,
+      "nbits": 8,
+      "index_mb": 7.9,
+      "flat_mb": 307.2,
+      "memory_reduction_pct": 97.4,
+      "recall@10_vs_flat": 0.604,
+      "latency_p50_ms": 0.9,
+      "latency_p99_ms": 1.25
+    },
+    {
+      "label": "m=64,4bit",
+      "nlist": 1024,
+      "m": 64,
+      "nbits": 4,
+      "index_mb": 7.2,
+      "flat_mb": 307.2,
+      "memory_reduction_pct": 97.7,
+      "recall@10_vs_flat": 0.579,
+      "latency_p50_ms": 2.06,
+      "latency_p99_ms": 3.84
+    },
+    {
+      "label": "m=32,4bit",
+      "nlist": 1024,
+      "m": 32,
+      "nbits": 4,
+      "index_mb": 5.6,
+      "flat_mb": 307.2,
+      "memory_reduction_pct": 98.2,
+      "recall@10_vs_flat": 0.457,
+      "latency_p50_ms": 1.42,
+      "latency_p99_ms": 2.99
+    }
+  ],
+  "flat_mb": 307.2
+}
